@@ -1,0 +1,1 @@
+This repository demonstrates a common but easily overlooked issue in React Router v6: the unexpected behavior of the useParams hook when used outside of a route's direct child component hierarchy.  The example showcases the problem and then provides a solution using proper route nesting and/or prop drilling to pass parameters down to the component that needs them.
