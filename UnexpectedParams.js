@@ -1,0 +1,1 @@
+In React Router Dom v6, using the `useParams` hook inside a component that's not directly nested within a route matching the parameters can lead to unexpected behavior.  The `params` object might be undefined or contain incorrect values, even if the route is technically accessible. This often occurs when routes are nested deeply or parameters are passed indirectly through props.
